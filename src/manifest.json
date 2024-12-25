@@ -1,0 +1,54 @@
+{
+  "bundles": [
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "spaceship",
+          "srcs": "assets/core/spaceship.png"
+        },
+        {
+          "name": "monster",
+          "srcs": "assets/core/monster.png"
+        },
+        {
+          "name": "space",
+          "srcs": "assets/core/space.jpg"
+        },
+        {
+          "name": "shoot",
+          "srcs": "assets/sounds/shoot.mp3"
+        },
+        {
+          "name": "levelUp",
+          "srcs": "assets/sounds/levelUp.mp3"
+        },
+        {
+          "name": "gameOver",
+          "srcs": "assets/sounds/gameOver.mp3"
+        },
+        {
+          "name": "explosion",
+          "srcs": "assets/sounds/explosion.mp3"
+        },
+        {
+          "name": "background",
+          "srcs": "assets/sounds/background.mp3"
+        },
+        {
+          "name": "victory",
+          "srcs": "assets/sounds/victory.mp3"
+        }
+      ]
+    },
+    {
+      "name": "fonts",
+      "assets": [
+        {
+          "name": "font",
+          "srcs": "assets//Sniglet-Regular.ttf"
+        }
+      ]
+    }
+  ]
+}

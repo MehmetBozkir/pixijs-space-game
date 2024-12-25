@@ -1,0 +1,55 @@
+<!doctype html>
+
+<head>
+  <title>Space Shooter Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/core/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/core/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/core/apple-touch-icon.png">
+  <link rel="manifest" href="./assets/core/site.webmanifest">
+  <style>
+    body,
+    html {
+      margin: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      overflow: hidden;
+    }
+
+    body {
+      background: #1e1e37;
+    }
+
+    #logo {
+      width: 100%;
+      max-width: 150px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    #bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      z-index: -1;
+      background: url('./assets/core/pattern.png') repeat center center fixed;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="bg"></div>
+  <img id="logo" src="./assets//core/logo_white.png" alt="loading">
+  <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
+</body>
+
+</html>
