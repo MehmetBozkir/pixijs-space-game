@@ -1,9 +1,15 @@
+<div align="center">
+
 # Space Shooter Game 🚀
+
+![Gif (online-video-cutter com)](https://github.com/user-attachments/assets/c5dc13d9-7bf0-41d3-96d4-877abf241c6f)
+
+</div>
 
 A fast-paced space shooter game built with PixiJS and GSAP, featuring progressive difficulty, multiple enemy formations, and online high scores.
 
 ## :link: Demo
-  - <a target="_blank" href="https://mehmetsalihbozkir.netlify.app/"> Netflify </a> to see and examine by yourself a demo of the site.
+  - <a target="_blank" href="https://pixijs-space-game.vercel.app/"> Netflify </a> to see and examine by yourself a demo of the site.
 
 ## 🛠 Tech Stack
 
@@ -51,10 +57,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com/downloa
 
 ```
 # Clone this repository
-$ git clone 
+$ git clone https://github.com/MehmetBozkir/pixijs-space-game.git
 
 # Go into the repository
-$ cd 
+$ cd pixijs-space-game
 
 # Install dependencies
 $ npm install
