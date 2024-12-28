@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "dev": "webpack-dev-server --hot --no-live-reload --mode development --config webpack.config.js",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production --config webpack.config.js"
   },
   "devDependencies": {
     "dotenv-webpack": "^8.1.0",
